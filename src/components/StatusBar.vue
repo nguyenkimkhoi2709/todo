@@ -23,6 +23,6 @@ export default {
         color: black;
     }
     .status-bar ul {
-        list-style: none;
+        list-style-type: decimal;
     }
 </style>
