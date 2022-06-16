@@ -1,3 +1,4 @@
-module.exports = {
-  publicPath: '/todo/'
-}
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})
